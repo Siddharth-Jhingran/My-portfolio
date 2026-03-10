@@ -1,0 +1,41 @@
+.window {
+    height: max-min(400px, 200px);
+    max-height: 300px;
+    min-height: 200px;
+    width: 400px;
+    background-color: rgb(27, 26, 26);
+
+    .nav {
+        display: flex;
+        gap: 0.2rem;
+        padding: 0.2rem 0.4rem;
+        background-color: rgb(68, 63, 63);
+
+        .red,
+        .yellow,
+        .green {
+            height: 14px;
+            width: 14px;
+            border-radius: 50%;
+        }
+
+            // background-color: white;
+            .red {
+                background-color: rgb(219, 24, 24);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
+            }
+
+            .yellow {
+                background-color: rgb(219, 219, 32);
+            }
+
+            .green {
+                background-color: rgb(44, 156, 44);
+            }
+            
+
+    }
+}
