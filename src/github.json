@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "imageUrl": "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5",
+    "name": "Elderly Healthcare Assistance Platform",
+    "description": "A web platform that connects elderly people with nursing services, healthcare support, and emergency assistance. It provides appointment booking, caregiver tracking, and health monitoring.",
+    "technologies": ["React", "Node.js", "Express", "MongoDB", "Socket.io"],
+    "repoLink": "https://github.com/username/elderly-healthcare-platform",
+    "liveLink": "https://elderly-healthcare-platform.vercel.app"
+  },
+  {
+    "id": 2,
+    "imageUrl": "https://images.unsplash.com/photo-1611224923853-80b023f02d71",
+    "name": "Task Management App",
+    "description": "A productivity web app where users can create, update, and track daily tasks with authentication and real-time updates.",
+    "technologies": ["React", "Firebase", "Tailwind CSS"],
+    "repoLink": "https://github.com/username/task-manager",
+    "liveLink": "https://task-manager-app.vercel.app"
+  },
+  {
+    "id": 3,
+    "imageUrl": "https://images.unsplash.com/photo-1556745757-8d76bdb6984b",
+    "name": "E-Commerce Store",
+    "description": "A full-stack e-commerce application with product browsing, cart functionality, user authentication, and order management.",
+    "technologies": ["React", "Node.js", "Express", "MongoDB", "Stripe"],
+    "repoLink": "https://github.com/username/ecommerce-store",
+    "liveLink": "https://ecommerce-store.vercel.app"
+  },
+  {
+    "id": 4,
+    "imageUrl": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d",
+    "name": "Weather Dashboard",
+    "description": "A weather dashboard that fetches real-time weather data using API and displays forecasts for different cities.",
+    "technologies": ["JavaScript", "HTML", "CSS", "OpenWeather API"],
+    "repoLink": "https://github.com/username/weather-dashboard",
+    "liveLink": "https://weather-dashboard.vercel.app"
+  },
+  {
+    "id": 5,
+    "imageUrl": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97",
+    "name": "Portfolio Website",
+    "description": "A personal portfolio website showcasing projects, skills, and contact information with modern UI and animations.",
+    "technologies": ["React", "Tailwind CSS", "Framer Motion"],
+    "repoLink": "https://github.com/username/portfolio",
+    "liveLink": "https://yourportfolio.vercel.app"
+  }
+]
