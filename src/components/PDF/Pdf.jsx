@@ -5,7 +5,7 @@ import './pdf.scss'
 const Pdf = () => {
   return (
     <>
-      <Macwindow>
+      <Macwindow x="500">
         <div className="resume">
         <embed src="/public/SID_RESUME.pdf" frameborder="0"></embed>
         </div>

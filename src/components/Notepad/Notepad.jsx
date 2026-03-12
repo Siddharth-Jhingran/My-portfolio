@@ -19,13 +19,8 @@ const Notepad = () => {
     },[])
 
   return (
-    <Macwindow>
-    {/* <div className="mark"> */}
-        {/* {markDown ? <Markdown>{markDown}</Markdown> : <p>Loading....</p>} */}
-    {/* </div> */}
-    {/* <SyntaxHighlighter language="typescript" style={docco}>
-        {markDown}
-    </SyntaxHighlighter> */}
+    <Macwindow x="150">
+   
 
         <SyntaxHighlighter language="typescript" style={atelierDuneDark}>
       {markDown}

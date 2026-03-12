@@ -1,0 +1,43 @@
+ help: () => {
+                        return (
+                            "Available commands:\n" +
+                            "  help      - show this help message\n" +
+                            "  about     - learn more about me\n" +
+                            "  skills    - see my technical skills\n" +
+                            "  projects  - browse a list of my projects\n" +
+                            "  contact   - how to get in touch\n" +
+                            "  clear     - clear the terminal window\n"
+                        );
+                    },
+                    about: () => {
+                        return (
+                            "Hi there! I'm [Your Name], a passionate web developer " +
+                            "who loves building sleek, responsive user interfaces " +
+                            "with React and modern web technologies.\n"
+                        );
+                    },
+                    skills:() => {
+                        return (
+                            "Languages: JavaScript (ES6+), HTML5, CSS3\n" +
+                            "Frameworks/Libraries: React, Vite, Sass\n" +
+                            "Tools: Git, VS Code, Chrome DevTools\n"
+                        );
+                    },
+                    projects: () => {
+                        return (
+                            "• Portfolio Website - this interactive CLI you\'re using!\n" +
+                            "• Spotify Clone - music app with React hooks\n" +
+                            "• Notepad App - a lightweight note-taking tool\n"
+                        );
+                    },
+                    contact: () => {
+                        return (
+                            "Email: your.email@example.com\n" +
+                            "LinkedIn: https://www.linkedin.com/in/yourprofile\n" +
+                            "GitHub: https://github.com/yourusername\n"
+                        );
+                    },
+                    clear: () => {
+                        // some terminal components support returning an empty string to clear
+                        return "";
+                    }

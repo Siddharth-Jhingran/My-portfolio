@@ -2,16 +2,16 @@ import React from 'react'
 import { Rnd } from 'react-rnd'
 import './Mac.scss'
 
-const Macwindow = ({children}) => {
+const Macwindow = ({children, height="66vh", width="47vw",x="250",y="100"}) => {
   return (
 
     <Rnd className='drager'
       default={{
 
-        width: "47vw",
-        height: "66vh",
-        x: "200",
-        y: "100"
+        width: width,
+        height: height,
+        x: x,
+        y: y,
       }}
     >
       <div className="window">
