@@ -3,7 +3,6 @@ import Macwindow from '../Macwindow/Macwindow'
 import gitData from '../../github.json'
 import './Github.scss'
 
-
 const projectCard = ({ id = "", imageUrl = "", name = "", description = "", technologies = [], repoLink = "", liveLink = "" }) => {
     return (
         <div className="card">
