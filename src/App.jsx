@@ -23,7 +23,7 @@ export default function App() {
   return (
     <>
       <main>
-        <Navbar/>
+        <Navbar setwindowStatus={setwindowStatus} windowStatus={windowStatus}/>
         {windowStatus.Notepad && <Notepad setwindowStatus={setwindowStatus}/>}
         {windowStatus.Github && <Github setwindowStatus={setwindowStatus}/>}
         {windowStatus.Pdf && <Pdf setwindowStatus={setwindowStatus}/>}

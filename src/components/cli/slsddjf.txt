@@ -1,43 +1,48 @@
- help: () => {
-                        return (
-                            "Available commands:\n" +
-                            "  help      - show this help message\n" +
-                            "  about     - learn more about me\n" +
-                            "  skills    - see my technical skills\n" +
-                            "  projects  - browse a list of my projects\n" +
-                            "  contact   - how to get in touch\n" +
-                            "  clear     - clear the terminal window\n"
-                        );
-                    },
-                    about: () => {
-                        return (
-                            "Hi there! I'm [Your Name], a passionate web developer " +
-                            "who loves building sleek, responsive user interfaces " +
-                            "with React and modern web technologies.\n"
-                        );
-                    },
-                    skills:() => {
-                        return (
-                            "Languages: JavaScript (ES6+), HTML5, CSS3\n" +
-                            "Frameworks/Libraries: React, Vite, Sass\n" +
-                            "Tools: Git, VS Code, Chrome DevTools\n"
-                        );
-                    },
-                    projects: () => {
-                        return (
-                            "• Portfolio Website - this interactive CLI you\'re using!\n" +
-                            "• Spotify Clone - music app with React hooks\n" +
-                            "• Notepad App - a lightweight note-taking tool\n"
-                        );
-                    },
-                    contact: () => {
-                        return (
-                            "Email: your.email@example.com\n" +
-                            "LinkedIn: https://www.linkedin.com/in/yourprofile\n" +
-                            "GitHub: https://github.com/yourusername\n"
-                        );
-                    },
-                    clear: () => {
-                        // some terminal components support returning an empty string to clear
-                        return "";
-                    }
+help: () => {
+    return (
+        "Available commands:\n" +
+        "  help      - show this help message\n" +
+        "  about     - learn more about me\n" +
+        "  skills    - see my technical skills\n" +
+        "  projects  - browse a list of my projects\n" +
+        "  contact   - how to get in touch\n" +
+        "  clear     - clear the terminal window\n"
+    );
+},
+
+about: () => {
+    return (
+        "Hi there! I'm Siddharth Jhingran, a passionate Full Stack MERN Developer " +
+        "who loves building scalable web applications and modern, responsive user interfaces. " +
+        "Currently pursuing B.Tech in Computer Science and actively working on real-world projects.\n"
+    );
+},
+
+skills: () => {
+    return (
+        "Frontend: React.js, Tailwind CSS, JavaScript (ES6+), HTML5, CSS3, Three.js\n" +
+        "Backend: Node.js, Express.js, REST APIs, JWT Authentication\n" +
+        "Database: MongoDB, Mongoose\n" +
+        "Tools: Git, GitHub, Postman, Figma, VS Code\n"
+    );
+},
+
+projects: () => {
+    return (
+        "• MoviX - Movie browsing platform with API integration and dynamic UI\n" +
+        "• SilverCare - Elderly healthcare assistance platform with authentication system\n" +
+        "• Portfolio Terminal - Interactive CLI-based developer portfolio\n"
+    );
+},
+
+contact: () => {
+    return (
+        "Email: siddharthjhingran29@gmail.com\n" +
+        "LinkedIn: https://linkedin.com/in/siddharthjhingran-90a217282\n" +
+        "GitHub: https://github.com/Siddharth-Jhingran\n"
+    );
+},
+
+clear: () => {
+    return "";
+}

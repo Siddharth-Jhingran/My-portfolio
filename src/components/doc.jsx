@@ -7,7 +7,7 @@ const Doc = ({setwindowStatus,windowStatus}) => {
         <div className="icon github" onClick={()=>{setwindowStatus(windowStatus.Github ? (status =>({ ...status, Github: false })):((status =>({ ...status, Github: true }))))}}><img src="./all_svgs/github.svg" alt="" /></div>
         <div className="icon note"onClick={()=>{setwindowStatus(windowStatus.Notepad ? (status =>({ ...status, Notepad: false })):((status =>({ ...status, Notepad: true }))))}}><img src="./all_svgs/note.svg" alt="" /></div>
         <div className="icon pdf"onClick={()=>{setwindowStatus(windowStatus.Pdf ? (status =>({ ...status, Pdf: false })):((status =>({ ...status, Pdf: true }))))}}><img src="./all_svgs/pdf.svg" alt="" /></div>
-        <div className="icon mail" onClick={()=>{window.open("https://mail.google.com/mail/u/0/#inbox?compose=sid@gmail.com", "_blank")}}><img src="./all_svgs/mail.svg" alt="" /></div>
+        <div className="icon mail" onClick={()=>{window.open("https://mail.google.com/mail/u/0/#inbox?compose=sidjhingran02@gmail.com", "_blank")}}><img src="./all_svgs/mail.svg" alt="" /></div>
         <div className="icon spotify" onClick={()=>{setwindowStatus(windowStatus.Spotify ? (status =>({ ...status, Spotify: false })):((status =>({ ...status, Spotify: true }))))}}><img src="./all_svgs/spotify.svg" alt="" /></div>
         <div className="icon link"><img src="./all_svgs/link.svg"></img>
         </div>

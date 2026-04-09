@@ -10,75 +10,116 @@
 
 const TECH_STACK = {
   frontend: [
-    "React.js",    // 100%
-    "Next.js",     // 95%
-    "TailwindCSS", // 90%
-    "Three.js",    // 70%
+    "React.js",      // 90%
+    "Tailwind CSS",  // 90%
+    "JavaScript (ES6+)", // 85%
+    "HTML5",         // 95%
+    "CSS3",          // 90%
+    "Three.js"       // 70%
   ],
+  
   backend: [
-    "Node.js",     // 90%
-    "PostgreSQL",  // 85%
-    "Redis",       // 75%
-    "Docker",      // 80%
+    "Node.js",       // 90%
+    "Express.js",    // 85%
+    "REST APIs",     // 85%
+    "JWT Authentication" // 80%
   ],
-  tools: ["AWS", "Git", "Figma", "Linux"]
+  
+  database: [
+    "MongoDB",       // 85%
+    "Mongoose"       // 80%
+  ],
+  
+  tools: [
+    "Git", 
+    "GitHub", 
+    "Postman", 
+    "Figma", 
+    "VS Code"
+  ]
 };
-
 // --------------------------------------------------
 // 2. EXPERIENCE LOG (Reverse Chronological)
 // --------------------------------------------------
 
 class ProfessionalHistory {
   
-  /** * CURRENT ROLE
-   * @period 2023 - Present 
+  /** 
+   * CURRENT ROLE
+   * @period 2026 - Present 
    */
-  public async TechFlow_Systems(): Promise<Impact> {
-    const role = "Senior Full-Stack Engineer";
+  public async Unified_Mentor_Internship(): Promise<Impact> {
+    const role = "Full Stack Developer Intern (MERN)";
     
-    // Key Achievements
-    const optimized = await api.optimize({ strategy: "Redis Caching" });
-    const latencyReduction = "40%";
+    // Key Contributions
+    const developed = [
+      "Built RESTful APIs using Node.js & Express",
+      "Designed responsive UI using React.js",
+      "Integrated MongoDB for data handling"
+    ];
     
-    const leadership = this.mentor(["Jr. Dev 1", "Jr. Dev 2", "Jr. Dev 3"]);
-    const architecture = "Monolith -> Microservices Migration";
+    const projects = ["MoviX - Movie Browsing Platform"];
+    const skills = ["MongoDB", "Express.js", "React.js", "Node.js"];
     
-    return { role, optimized, architecture, leadership };
+    return { role, developed, projects, skills };
   }
 
-  /** * PREVIOUS ROLE
-   * @period 2021 - 2023
+  /** 
+   * PROJECT EXPERIENCE
+   * @period 2024 - 2025
    */
-  public PixelPerfect_Studios(): void {
-    this.role = "Frontend Developer";
-    this.focus = "High-Fidelity Animations";
+  public Personal_Projects(): void {
+    this.projects = [
+      "MoviX - Movie streaming & browsing web app with API integration",
+      "SilverCare - Elderly healthcare assistance platform"
+    ];
     
-    // Implemented GSAP scroll-triggers for 15+ clients
-    // Improved Lighthouse Performance Scores: 65 -> 98
+    this.features = [
+      "Authentication system with secure login/signup",
+      "Dynamic UI with API-based data rendering",
+      "Responsive design for all devices"
+    ];
+    
+    this.techStack = [
+      "React.js", 
+      "Node.js", 
+      "Express.js", 
+      "MongoDB", 
+      "Tailwind CSS"
+    ];
   }
 }
 
-// --------------------------------------------------
+// -------------------------------------------------- 
 // 3. COMPETITIVE ACHIEVEMENTS
 // --------------------------------------------------
 
-interface HackathonWin {
-  rank: number;
-  event: string;
-  project: string;
+interface Achievement {
+  type: string;
+  title: string;
+  description: string;
 }
 
-const trophyCabinet: HackathonWin[] = [
+const achievementBoard: Achievement[] = [
   {
-    rank: 1,
-    event: "Global AI Hackathon 2024",
-    project: "EcoVision (Computer Vision Waste Segregation)",
-    // Prize: $5,000
+    type: "Project",
+    title: "MoviX - Movie Browsing Platform",
+    description: "Built a full-stack MERN application with API integration, dynamic UI, and responsive design"
   },
   {
-    rank: 500, // Top 500 Global
-    event: "Google Code Jam 2023",
-    project: "Algorithm Optimization (Dynamic Programming)",
+    type: "Project",
+    title: "SilverCare - Elderly Healthcare Platform",
+    description: "Developed a healthcare assistance platform with authentication system and user-friendly interface"
+  },
+  {
+    type: "Internship",
+    title: "Unified Mentor",
+    description: "Worked as a Full Stack Developer Intern, building APIs and frontend components using MERN stack"
+  },
+  {
+    type: "Training",
+    title: "GrasTech Training Program",
+    description: "Completed industry-oriented training focused on full-stack development, problem-solving, and real-world project building"
   }
 ];
 
@@ -87,8 +128,9 @@ const trophyCabinet: HackathonWin[] = [
 // --------------------------------------------------
 
 const education = new Map<string, string>([
-  ["Stanford University", "MS Computer Science (3.9 GPA)"],
-  ["MIT World Peace Univ", "B.Tech Information Tech (8.8 CGPA)"]
+  ["Babu Banarasi Das University, Lucknow", "B.Tech Computer Science (Pursuing)"],
+  ["Sumitra Inter College, Sitapur", "Intermediate (PCM)"],
+  ["Sumitra Inter College, Sitapur", "High School"]
 ]);
 
 export default new ProfessionalHistory();
@@ -97,9 +139,9 @@ export default new ProfessionalHistory();
 ```bash
 # TERMINAL OUTPUT
 # ---------------------------------------
-$ user --status
+$ siddharth --status
+> Role: Full Stack MERN Developer
 > Status: Open to Opportunities
-> Location: Global / Remote
-> Loading Assets... [||||||||||] 100%
-> Ready.
-```
+> Location: Lucknow / Remote
+> Skills Loading... [||||||||||] 100%
+> Ready to Build 🚀
