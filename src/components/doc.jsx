@@ -9,9 +9,9 @@ const Doc = ({setwindowStatus,windowStatus}) => {
         <div className="icon pdf"onClick={()=>{setwindowStatus(windowStatus.Pdf ? (status =>({ ...status, Pdf: false })):((status =>({ ...status, Pdf: true }))))}}><img src="./all_svgs/pdf.svg" alt="" /></div>
         <div className="icon mail" onClick={()=>{window.open("https://mail.google.com/mail/u/0/#inbox?compose=sid@gmail.com", "_blank")}}><img src="./all_svgs/mail.svg" alt="" /></div>
         <div className="icon spotify" onClick={()=>{setwindowStatus(windowStatus.Spotify ? (status =>({ ...status, Spotify: false })):((status =>({ ...status, Spotify: true }))))}}><img src="./all_svgs/spotify.svg" alt="" /></div>
-        <div className="icon link"><img src="../../public/all_svgs/link.svg"></img>
+        <div className="icon link"><img src="./all_svgs/link.svg"></img>
         </div>
-        <div className="icon cli" onClick={()=>{setwindowStatus(windowStatus.Cli ? (status =>({ ...status, Cli: false })):((status =>({ ...status, Cli: true }))))}}><img src="../../public/all_svgs/cli.svg" alt="" /></div>
+        <div className="icon cli" onClick={()=>{setwindowStatus(windowStatus.Cli ? (status =>({ ...status, Cli: false })):((status =>({ ...status, Cli: true }))))}}><img src="./all_svgs/cli.svg" alt="" /></div>
 
     </footer>
   )
