@@ -18,7 +18,7 @@ const Macwindow = ({children, height="66vh", width="47vw",x="250",y="100"}) => {
         <div className="nav">
           <div className="red"><p>x</p></div>
           <div className="yellow"><p>-</p></div>
-          <div className="green"><p>□</p></ div>
+          <div className="green"><p>□</p></div>
         </div>
         <div className="content">
           {children}
