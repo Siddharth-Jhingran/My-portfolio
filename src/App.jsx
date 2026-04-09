@@ -5,7 +5,7 @@ import Github from './components/Github/Github'
 import Notepad from './components/Notepad/Notepad'
 import Pdf from './components/PDF/Pdf'
 import Spotify from './components/Spotify/Spotify'
-import Cli from './components/cli/cli'
+import Cli from './components/cli/Cli'
 import Calendar from './components/Calendar'
 
 export default function App() {
